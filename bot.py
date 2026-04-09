@@ -2845,6 +2845,6 @@ async def before_jwt():
 if __name__ == "__main__":
     if not DISCORD_TOKEN:
         print("⚠️  DISCORD_TOKEN is not set in .env — bot cannot start.")
-        print("   Add your token to C:\\Users\\markp\\Desktop\\ProxyBot\\.env")
+        print("   Add your token to the .env file in the bot directory")
     else:
         bot.run(DISCORD_TOKEN)
