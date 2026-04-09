@@ -1,0 +1,16 @@
+# Credentials
+.env
+
+# Data files
+*.json
+
+# Generated proxy files
+proxies_*.txt
+verify_results.txt
+
+# Python
+__pycache__/
+*.pyc
+
+# Claude
+.claude/
